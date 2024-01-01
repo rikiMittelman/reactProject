@@ -1,0 +1,85 @@
+#boxush{
+    width: 500px;
+margin-right: 0%;
+margin-left: auto;
+}
+#container1{
+    display: flex;
+    margin-left: auto;   
+}
+#service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+#card{
+    padding: 0px;
+    margin: 4px;
+ margin-left: auto;
+
+}
+#Ser{
+    border-bottom: 2px red solid;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color:tomato;
+}
+.green{
+    background-color: teal;
+}
+#theEvents{
+    display: flex;
+    flex-wrap: wrap;
+}
+#theEvents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .oneEvent {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .oneEvent div {
+    margin-bottom: 5px;
+  }
+
+  #container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #container1 .oneEvent {
+    margin-bottom: 20px;
+  }
+#header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img{
+  height: 190px;
+  width: 200px;
+  
+}
+#icon{
+  height: 57px;
+  width: 60px;
+}
+body{
+  background-color: rgba(227, 227, 227, 0.577);
+}
+
